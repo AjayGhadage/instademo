@@ -1,0 +1,18 @@
+{
+  "ajay": {
+    "username": "ajay",
+    "name": "Ajay Ghadage",
+    "bio": "Coder | Developer | Student",
+    "posts": 32,
+    "followers": 150,
+    "following": 200
+  },
+  "sneha": {
+    "username": "sneha",
+    "name": "Sneha Patil",
+    "bio": "Photographer & Traveler",
+    "posts": 58,
+    "followers": 1020,
+    "following": 180
+  }
+}

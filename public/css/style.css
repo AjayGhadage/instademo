@@ -1,0 +1,13 @@
+.navbar { display: flex; justify-content: center; align-items: center; border-bottom: 1px solid #dfdfdf; position: sticky; top: 0; background: #fff; }
+.nav-wrapper { display: flex; width: 90%; max-width: 1000px; align-items: center; justify-content: space-between; }
+.stories { display: flex; overflow-x: auto; padding: 10px; background: #fff; border-bottom: 1px solid #dfdfdf; }
+.story { text-align: center; margin-right: 15px; }
+.story img { width: 60px; height: 60px; border-radius: 50%; border: 2px solid #c13584; }
+.feed { display: flex; flex-direction: column; align-items: center; padding: 20px 0; }
+.post { width: 100%; max-width: 600px; background: #fff; border: 1px solid #dbdbdb; margin-bottom: 20px; }
+.post-header { display: flex; align-items: center; padding: 10px; }
+.post-header img { width: 32px; height: 32px; border-radius: 50%; margin-right: 10px; }
+.post-img { width: 100%; }
+.post-info { padding: 10px; }
+.sidebar { width: 300px; position: fixed; top: 80px; right: 20px; }
+@media (max-width: 800px) { .sidebar { display: none; } }
