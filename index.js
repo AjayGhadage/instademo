@@ -15,18 +15,18 @@ app.get("/", (req, res) => {
 
 // Instagram route with dynamic username
 app.get("/ig/:username", (req, res) => {
-    const instadata = require("./data.json");      // ✅ load JSON file
-    const { username } = req.params;               // ✅ extract from URL
+    const instadata = require("./data.json");      
+    const { username } = req.params;              
 
-    console.log("username from URL:", username);   // ✅ now it's defined
-    console.log("Available users:", Object.keys(instadata)); // Debug available users
+    console.log("username from URL:", username);   
+    console.log("Available users:", Object.keys(instadata)); 
 
-    const userData = instadata[username];          // ✅ get specific user data
+    const userData = instadata[username];         
 
     if (userData) {
-        res.render("instagram.ejs", { data: userData });  // ✅ render with user data
+        res.render("instagram.ejs", { data: userData }); 
     } else {
-        res.status(404).send("User not found");     // ✅ show 404 if not found
+        res.status(404).send("User not found");     
     }
 });
 
